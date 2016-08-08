@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAD91361AA9773400979BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD91351AA9773400979BB9 /* main.m */; };
+		3CAD91391AA9773400979BB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD91381AA9773400979BB9 /* AppDelegate.m */; };
+		3CAD913C1AA9773400979BB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD913B1AA9773400979BB9 /* ViewController.m */; };
+		3CAD913F1AA9773400979BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD913D1AA9773400979BB9 /* Main.storyboard */; };
+		3CAD91411AA9773400979BB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD91401AA9773400979BB9 /* Images.xcassets */; };
+		3CAD91441AA9773400979BB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD91421AA9773400979BB9 /* LaunchScreen.xib */; };
+		3CAD91501AA9773400979BB9 /* fmdb______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD914F1AA9773400979BB9 /* fmdb______Tests.m */; };
+		3CAD915A1AA9774700979BB9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAD91591AA9774700979BB9 /* libsqlite3.dylib */; };
+		3CDF63D31D48AEC100246D19 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF63C91D48AEC100246D19 /* FMDatabase.m */; };
+		3CDF63D41D48AEC100246D19 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF63CB1D48AEC100246D19 /* FMDatabaseAdditions.m */; };
+		3CDF63D51D48AEC100246D19 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF63CD1D48AEC100246D19 /* FMDatabasePool.m */; };
+		3CDF63D61D48AEC100246D19 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF63CF1D48AEC100246D19 /* FMDatabaseQueue.m */; };
+		3CDF63D71D48AEC100246D19 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF63D21D48AEC100246D19 /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAD914A1AA9773400979BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAD91281AA9773400979BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAD912F1AA9773400979BB9;
+			remoteInfo = "fmdb的数据库操作";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CAD91301AA9773400979BB9 /* fmdb的数据库操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fmdb的数据库操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD91341AA9773400979BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAD91351AA9773400979BB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CAD91371AA9773400979BB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CAD91381AA9773400979BB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CAD913A1AA9773400979BB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CAD913B1AA9773400979BB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CAD913E1AA9773400979BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CAD91401AA9773400979BB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CAD91431AA9773400979BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CAD91491AA9773400979BB9 /* fmdb的数据库操作Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fmdb的数据库操作Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD914E1AA9773400979BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAD914F1AA9773400979BB9 /* fmdb______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "fmdb______Tests.m"; sourceTree = "<group>"; };
+		3CAD91591AA9774700979BB9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3CDF63C81D48AEC100246D19 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3CDF63C91D48AEC100246D19 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3CDF63CA1D48AEC100246D19 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3CDF63CB1D48AEC100246D19 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3CDF63CC1D48AEC100246D19 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3CDF63CD1D48AEC100246D19 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3CDF63CE1D48AEC100246D19 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3CDF63CF1D48AEC100246D19 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3CDF63D01D48AEC100246D19 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		3CDF63D11D48AEC100246D19 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3CDF63D21D48AEC100246D19 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAD912D1AA9773400979BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD915A1AA9774700979BB9 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD91461AA9773400979BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAD91271AA9773400979BB9 = {
+			isa = PBXGroup;
+			children = (
+				3CAD91591AA9774700979BB9 /* libsqlite3.dylib */,
+				3CAD91321AA9773400979BB9 /* fmdb的数据库操作 */,
+				3CAD914C1AA9773400979BB9 /* fmdb的数据库操作Tests */,
+				3CAD91311AA9773400979BB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAD91311AA9773400979BB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD91301AA9773400979BB9 /* fmdb的数据库操作.app */,
+				3CAD91491AA9773400979BB9 /* fmdb的数据库操作Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAD91321AA9773400979BB9 /* fmdb的数据库操作 */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF63C71D48AEC100246D19 /* fmdb */,
+				3CAD91371AA9773400979BB9 /* AppDelegate.h */,
+				3CAD91381AA9773400979BB9 /* AppDelegate.m */,
+				3CAD913A1AA9773400979BB9 /* ViewController.h */,
+				3CAD913B1AA9773400979BB9 /* ViewController.m */,
+				3CAD913D1AA9773400979BB9 /* Main.storyboard */,
+				3CAD91401AA9773400979BB9 /* Images.xcassets */,
+				3CAD91421AA9773400979BB9 /* LaunchScreen.xib */,
+				3CAD91331AA9773400979BB9 /* Supporting Files */,
+			);
+			path = "fmdb的数据库操作";
+			sourceTree = "<group>";
+		};
+		3CAD91331AA9773400979BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD91341AA9773400979BB9 /* Info.plist */,
+				3CAD91351AA9773400979BB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CAD914C1AA9773400979BB9 /* fmdb的数据库操作Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD914F1AA9773400979BB9 /* fmdb______Tests.m */,
+				3CAD914D1AA9773400979BB9 /* Supporting Files */,
+			);
+			path = "fmdb的数据库操作Tests";
+			sourceTree = "<group>";
+		};
+		3CAD914D1AA9773400979BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD914E1AA9773400979BB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CDF63C71D48AEC100246D19 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF63C81D48AEC100246D19 /* FMDatabase.h */,
+				3CDF63C91D48AEC100246D19 /* FMDatabase.m */,
+				3CDF63CA1D48AEC100246D19 /* FMDatabaseAdditions.h */,
+				3CDF63CB1D48AEC100246D19 /* FMDatabaseAdditions.m */,
+				3CDF63CC1D48AEC100246D19 /* FMDatabasePool.h */,
+				3CDF63CD1D48AEC100246D19 /* FMDatabasePool.m */,
+				3CDF63CE1D48AEC100246D19 /* FMDatabaseQueue.h */,
+				3CDF63CF1D48AEC100246D19 /* FMDatabaseQueue.m */,
+				3CDF63D01D48AEC100246D19 /* FMDB.h */,
+				3CDF63D11D48AEC100246D19 /* FMResultSet.h */,
+				3CDF63D21D48AEC100246D19 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAD912F1AA9773400979BB9 /* fmdb的数据库操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD91531AA9773400979BB9 /* Build configuration list for PBXNativeTarget "fmdb的数据库操作" */;
+			buildPhases = (
+				3CAD912C1AA9773400979BB9 /* Sources */,
+				3CAD912D1AA9773400979BB9 /* Frameworks */,
+				3CAD912E1AA9773400979BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fmdb的数据库操作";
+			productName = "fmdb的数据库操作";
+			productReference = 3CAD91301AA9773400979BB9 /* fmdb的数据库操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAD91481AA9773400979BB9 /* fmdb的数据库操作Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD91561AA9773400979BB9 /* Build configuration list for PBXNativeTarget "fmdb的数据库操作Tests" */;
+			buildPhases = (
+				3CAD91451AA9773400979BB9 /* Sources */,
+				3CAD91461AA9773400979BB9 /* Frameworks */,
+				3CAD91471AA9773400979BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAD914B1AA9773400979BB9 /* PBXTargetDependency */,
+			);
+			name = "fmdb的数据库操作Tests";
+			productName = "fmdb的数据库操作Tests";
+			productReference = 3CAD91491AA9773400979BB9 /* fmdb的数据库操作Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAD91281AA9773400979BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					3CAD912F1AA9773400979BB9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3CAD91481AA9773400979BB9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3CAD912F1AA9773400979BB9;
+					};
+				};
+			};
+			buildConfigurationList = 3CAD912B1AA9773400979BB9 /* Build configuration list for PBXProject "fmdb的数据库操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAD91271AA9773400979BB9;
+			productRefGroup = 3CAD91311AA9773400979BB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAD912F1AA9773400979BB9 /* fmdb的数据库操作 */,
+				3CAD91481AA9773400979BB9 /* fmdb的数据库操作Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAD912E1AA9773400979BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD913F1AA9773400979BB9 /* Main.storyboard in Resources */,
+				3CAD91441AA9773400979BB9 /* LaunchScreen.xib in Resources */,
+				3CAD91411AA9773400979BB9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD91471AA9773400979BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAD912C1AA9773400979BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD913C1AA9773400979BB9 /* ViewController.m in Sources */,
+				3CDF63D51D48AEC100246D19 /* FMDatabasePool.m in Sources */,
+				3CAD91391AA9773400979BB9 /* AppDelegate.m in Sources */,
+				3CDF63D61D48AEC100246D19 /* FMDatabaseQueue.m in Sources */,
+				3CAD91361AA9773400979BB9 /* main.m in Sources */,
+				3CDF63D31D48AEC100246D19 /* FMDatabase.m in Sources */,
+				3CDF63D71D48AEC100246D19 /* FMResultSet.m in Sources */,
+				3CDF63D41D48AEC100246D19 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD91451AA9773400979BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD91501AA9773400979BB9 /* fmdb______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAD914B1AA9773400979BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAD912F1AA9773400979BB9 /* fmdb的数据库操作 */;
+			targetProxy = 3CAD914A1AA9773400979BB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CAD913D1AA9773400979BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAD913E1AA9773400979BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CAD91421AA9773400979BB9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAD91431AA9773400979BB9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CAD91511AA9773400979BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CAD91521AA9773400979BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAD91541AA9773400979BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fmdb的数据库操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CAD91551AA9773400979BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fmdb的数据库操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CAD91571AA9773400979BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fmdb的数据库操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmdb的数据库操作.app/fmdb的数据库操作";
+			};
+			name = Debug;
+		};
+		3CAD91581AA9773400979BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fmdb的数据库操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmdb的数据库操作.app/fmdb的数据库操作";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAD912B1AA9773400979BB9 /* Build configuration list for PBXProject "fmdb的数据库操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD91511AA9773400979BB9 /* Debug */,
+				3CAD91521AA9773400979BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD91531AA9773400979BB9 /* Build configuration list for PBXNativeTarget "fmdb的数据库操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD91541AA9773400979BB9 /* Debug */,
+				3CAD91551AA9773400979BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD91561AA9773400979BB9 /* Build configuration list for PBXNativeTarget "fmdb的数据库操作Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD91571AA9773400979BB9 /* Debug */,
+				3CAD91581AA9773400979BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAD91281AA9773400979BB9 /* Project object */;
+}

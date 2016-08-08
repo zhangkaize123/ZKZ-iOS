@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAABBFF1A89FEE600680C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAABBFE1A89FEE600680C01 /* main.m */; };
+		3CAABC021A89FEE600680C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAABC011A89FEE600680C01 /* AppDelegate.m */; };
+		3CAABC0A1A89FEE600680C01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAABC091A89FEE600680C01 /* Images.xcassets */; };
+		3CAABC0D1A89FEE600680C01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAABC0B1A89FEE600680C01 /* LaunchScreen.xib */; };
+		3CAABC191A89FEE600680C01 /* ____window____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAABC181A89FEE600680C01 /* ____window____Tests.m */; };
+		3CAABC231A89FF1900680C01 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAABC221A89FF1900680C01 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAABC131A89FEE600680C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAABBF11A89FEE600680C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAABBF81A89FEE600680C01;
+			remoteInfo = "如何使用window作为界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CAABBF91A89FEE600680C01 /* 如何使用window作为界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "如何使用window作为界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAABBFD1A89FEE600680C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAABBFE1A89FEE600680C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CAABC001A89FEE600680C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CAABC011A89FEE600680C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CAABC091A89FEE600680C01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CAABC0C1A89FEE600680C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CAABC121A89FEE600680C01 /* 如何使用window作为界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "如何使用window作为界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAABC171A89FEE600680C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAABC181A89FEE600680C01 /* ____window____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____window____Tests.m"; sourceTree = "<group>"; };
+		3CAABC221A89FF1900680C01 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAABBF61A89FEE600680C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAABC0F1A89FEE600680C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAABBF01A89FEE600680C01 = {
+			isa = PBXGroup;
+			children = (
+				3CAABBFB1A89FEE600680C01 /* 如何使用window作为界面 */,
+				3CAABC151A89FEE600680C01 /* 如何使用window作为界面Tests */,
+				3CAABBFA1A89FEE600680C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAABBFA1A89FEE600680C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAABBF91A89FEE600680C01 /* 如何使用window作为界面.app */,
+				3CAABC121A89FEE600680C01 /* 如何使用window作为界面Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAABBFB1A89FEE600680C01 /* 如何使用window作为界面 */ = {
+			isa = PBXGroup;
+			children = (
+				3CAABC001A89FEE600680C01 /* AppDelegate.h */,
+				3CAABC011A89FEE600680C01 /* AppDelegate.m */,
+				3CAABC091A89FEE600680C01 /* Images.xcassets */,
+				3CAABC0B1A89FEE600680C01 /* LaunchScreen.xib */,
+				3CAABBFC1A89FEE600680C01 /* Supporting Files */,
+				3CAABC221A89FF1900680C01 /* MainWindow.xib */,
+			);
+			path = "如何使用window作为界面";
+			sourceTree = "<group>";
+		};
+		3CAABBFC1A89FEE600680C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAABBFD1A89FEE600680C01 /* Info.plist */,
+				3CAABBFE1A89FEE600680C01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CAABC151A89FEE600680C01 /* 如何使用window作为界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAABC181A89FEE600680C01 /* ____window____Tests.m */,
+				3CAABC161A89FEE600680C01 /* Supporting Files */,
+			);
+			path = "如何使用window作为界面Tests";
+			sourceTree = "<group>";
+		};
+		3CAABC161A89FEE600680C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAABC171A89FEE600680C01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAABBF81A89FEE600680C01 /* 如何使用window作为界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAABC1C1A89FEE600680C01 /* Build configuration list for PBXNativeTarget "如何使用window作为界面" */;
+			buildPhases = (
+				3CAABBF51A89FEE600680C01 /* Sources */,
+				3CAABBF61A89FEE600680C01 /* Frameworks */,
+				3CAABBF71A89FEE600680C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "如何使用window作为界面";
+			productName = "如何使用window作为界面";
+			productReference = 3CAABBF91A89FEE600680C01 /* 如何使用window作为界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAABC111A89FEE600680C01 /* 如何使用window作为界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAABC1F1A89FEE600680C01 /* Build configuration list for PBXNativeTarget "如何使用window作为界面Tests" */;
+			buildPhases = (
+				3CAABC0E1A89FEE600680C01 /* Sources */,
+				3CAABC0F1A89FEE600680C01 /* Frameworks */,
+				3CAABC101A89FEE600680C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAABC141A89FEE600680C01 /* PBXTargetDependency */,
+			);
+			name = "如何使用window作为界面Tests";
+			productName = "如何使用window作为界面Tests";
+			productReference = 3CAABC121A89FEE600680C01 /* 如何使用window作为界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAABBF11A89FEE600680C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					3CAABBF81A89FEE600680C01 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3CAABC111A89FEE600680C01 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3CAABBF81A89FEE600680C01;
+					};
+				};
+			};
+			buildConfigurationList = 3CAABBF41A89FEE600680C01 /* Build configuration list for PBXProject "如何使用window作为界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAABBF01A89FEE600680C01;
+			productRefGroup = 3CAABBFA1A89FEE600680C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAABBF81A89FEE600680C01 /* 如何使用window作为界面 */,
+				3CAABC111A89FEE600680C01 /* 如何使用window作为界面Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAABBF71A89FEE600680C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAABC0D1A89FEE600680C01 /* LaunchScreen.xib in Resources */,
+				3CAABC0A1A89FEE600680C01 /* Images.xcassets in Resources */,
+				3CAABC231A89FF1900680C01 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAABC101A89FEE600680C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAABBF51A89FEE600680C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAABC021A89FEE600680C01 /* AppDelegate.m in Sources */,
+				3CAABBFF1A89FEE600680C01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAABC0E1A89FEE600680C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAABC191A89FEE600680C01 /* ____window____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAABC141A89FEE600680C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAABBF81A89FEE600680C01 /* 如何使用window作为界面 */;
+			targetProxy = 3CAABC131A89FEE600680C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CAABC0B1A89FEE600680C01 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAABC0C1A89FEE600680C01 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CAABC1A1A89FEE600680C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CAABC1B1A89FEE600680C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAABC1D1A89FEE600680C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "如何使用window作为界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CAABC1E1A89FEE600680C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "如何使用window作为界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CAABC201A89FEE600680C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "如何使用window作为界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/如何使用window作为界面.app/如何使用window作为界面";
+			};
+			name = Debug;
+		};
+		3CAABC211A89FEE600680C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "如何使用window作为界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/如何使用window作为界面.app/如何使用window作为界面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAABBF41A89FEE600680C01 /* Build configuration list for PBXProject "如何使用window作为界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAABC1A1A89FEE600680C01 /* Debug */,
+				3CAABC1B1A89FEE600680C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAABC1C1A89FEE600680C01 /* Build configuration list for PBXNativeTarget "如何使用window作为界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAABC1D1A89FEE600680C01 /* Debug */,
+				3CAABC1E1A89FEE600680C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CAABC1F1A89FEE600680C01 /* Build configuration list for PBXNativeTarget "如何使用window作为界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAABC201A89FEE600680C01 /* Debug */,
+				3CAABC211A89FEE600680C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAABBF11A89FEE600680C01 /* Project object */;
+}

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDCB2841AB670E50042472F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB2831AB670E50042472F /* main.m */; };
+		3CDCB2871AB670E50042472F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB2861AB670E50042472F /* AppDelegate.m */; };
+		3CDCB28A1AB670E50042472F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB2891AB670E50042472F /* ViewController.m */; };
+		3CDCB28D1AB670E50042472F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCB28B1AB670E50042472F /* Main.storyboard */; };
+		3CDCB28F1AB670E50042472F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCB28E1AB670E50042472F /* Images.xcassets */; };
+		3CDCB2921AB670E50042472F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCB2901AB670E50042472F /* LaunchScreen.xib */; };
+		3CDCB29E1AB670E60042472F /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCB29D1AB670E60042472F /* ______Tests.m */; };
+		3CDCB2A81AB680400042472F /* mydb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCB2A71AB680400042472F /* mydb.sqlite */; };
+		3CDCB2AA1AB682E30042472F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDCB2A91AB682E30042472F /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CDCB2981AB670E60042472F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDCB2761AB670E50042472F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDCB27D1AB670E50042472F;
+			remoteInfo = "网络登录注册";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CDCB27E1AB670E50042472F /* 网络登录注册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网络登录注册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDCB2821AB670E50042472F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDCB2831AB670E50042472F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CDCB2851AB670E50042472F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CDCB2861AB670E50042472F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CDCB2881AB670E50042472F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CDCB2891AB670E50042472F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CDCB28C1AB670E50042472F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CDCB28E1AB670E50042472F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CDCB2911AB670E50042472F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CDCB2971AB670E60042472F /* 网络登录注册Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网络登录注册Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDCB29C1AB670E60042472F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDCB29D1AB670E60042472F /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		3CDCB2A71AB680400042472F /* mydb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydb.sqlite; sourceTree = "<group>"; };
+		3CDCB2A91AB682E30042472F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDCB27B1AB670E50042472F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDCB2AA1AB682E30042472F /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDCB2941AB670E60042472F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDCB2751AB670E50042472F = {
+			isa = PBXGroup;
+			children = (
+				3CDCB2A91AB682E30042472F /* libsqlite3.dylib */,
+				3CDCB2801AB670E50042472F /* 网络登录注册 */,
+				3CDCB29A1AB670E60042472F /* 网络登录注册Tests */,
+				3CDCB27F1AB670E50042472F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDCB27F1AB670E50042472F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCB27E1AB670E50042472F /* 网络登录注册.app */,
+				3CDCB2971AB670E60042472F /* 网络登录注册Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDCB2801AB670E50042472F /* 网络登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCB2A71AB680400042472F /* mydb.sqlite */,
+				3CDCB2851AB670E50042472F /* AppDelegate.h */,
+				3CDCB2861AB670E50042472F /* AppDelegate.m */,
+				3CDCB2881AB670E50042472F /* ViewController.h */,
+				3CDCB2891AB670E50042472F /* ViewController.m */,
+				3CDCB28B1AB670E50042472F /* Main.storyboard */,
+				3CDCB28E1AB670E50042472F /* Images.xcassets */,
+				3CDCB2901AB670E50042472F /* LaunchScreen.xib */,
+				3CDCB2811AB670E50042472F /* Supporting Files */,
+			);
+			path = "网络登录注册";
+			sourceTree = "<group>";
+		};
+		3CDCB2811AB670E50042472F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCB2821AB670E50042472F /* Info.plist */,
+				3CDCB2831AB670E50042472F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CDCB29A1AB670E60042472F /* 网络登录注册Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCB29D1AB670E60042472F /* ______Tests.m */,
+				3CDCB29B1AB670E60042472F /* Supporting Files */,
+			);
+			path = "网络登录注册Tests";
+			sourceTree = "<group>";
+		};
+		3CDCB29B1AB670E60042472F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCB29C1AB670E60042472F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDCB27D1AB670E50042472F /* 网络登录注册 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDCB2A11AB670E60042472F /* Build configuration list for PBXNativeTarget "网络登录注册" */;
+			buildPhases = (
+				3CDCB27A1AB670E50042472F /* Sources */,
+				3CDCB27B1AB670E50042472F /* Frameworks */,
+				3CDCB27C1AB670E50042472F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网络登录注册";
+			productName = "网络登录注册";
+			productReference = 3CDCB27E1AB670E50042472F /* 网络登录注册.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CDCB2961AB670E60042472F /* 网络登录注册Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDCB2A41AB670E60042472F /* Build configuration list for PBXNativeTarget "网络登录注册Tests" */;
+			buildPhases = (
+				3CDCB2931AB670E60042472F /* Sources */,
+				3CDCB2941AB670E60042472F /* Frameworks */,
+				3CDCB2951AB670E60042472F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDCB2991AB670E60042472F /* PBXTargetDependency */,
+			);
+			name = "网络登录注册Tests";
+			productName = "网络登录注册Tests";
+			productReference = 3CDCB2971AB670E60042472F /* 网络登录注册Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDCB2761AB670E50042472F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					3CDCB27D1AB670E50042472F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3CDCB2961AB670E60042472F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3CDCB27D1AB670E50042472F;
+					};
+				};
+			};
+			buildConfigurationList = 3CDCB2791AB670E50042472F /* Build configuration list for PBXProject "网络登录注册" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDCB2751AB670E50042472F;
+			productRefGroup = 3CDCB27F1AB670E50042472F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDCB27D1AB670E50042472F /* 网络登录注册 */,
+				3CDCB2961AB670E60042472F /* 网络登录注册Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDCB27C1AB670E50042472F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDCB28D1AB670E50042472F /* Main.storyboard in Resources */,
+				3CDCB2921AB670E50042472F /* LaunchScreen.xib in Resources */,
+				3CDCB28F1AB670E50042472F /* Images.xcassets in Resources */,
+				3CDCB2A81AB680400042472F /* mydb.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDCB2951AB670E60042472F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDCB27A1AB670E50042472F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDCB28A1AB670E50042472F /* ViewController.m in Sources */,
+				3CDCB2871AB670E50042472F /* AppDelegate.m in Sources */,
+				3CDCB2841AB670E50042472F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDCB2931AB670E60042472F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDCB29E1AB670E60042472F /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDCB2991AB670E60042472F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDCB27D1AB670E50042472F /* 网络登录注册 */;
+			targetProxy = 3CDCB2981AB670E60042472F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CDCB28B1AB670E50042472F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDCB28C1AB670E50042472F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CDCB2901AB670E50042472F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDCB2911AB670E50042472F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CDCB29F1AB670E60042472F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CDCB2A01AB670E60042472F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDCB2A21AB670E60042472F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网络登录注册/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CDCB2A31AB670E60042472F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网络登录注册/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CDCB2A51AB670E60042472F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "网络登录注册Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网络登录注册.app/网络登录注册";
+			};
+			name = Debug;
+		};
+		3CDCB2A61AB670E60042472F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "网络登录注册Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网络登录注册.app/网络登录注册";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDCB2791AB670E50042472F /* Build configuration list for PBXProject "网络登录注册" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDCB29F1AB670E60042472F /* Debug */,
+				3CDCB2A01AB670E60042472F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDCB2A11AB670E60042472F /* Build configuration list for PBXNativeTarget "网络登录注册" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDCB2A21AB670E60042472F /* Debug */,
+				3CDCB2A31AB670E60042472F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CDCB2A41AB670E60042472F /* Build configuration list for PBXNativeTarget "网络登录注册Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDCB2A51AB670E60042472F /* Debug */,
+				3CDCB2A61AB670E60042472F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDCB2761AB670E50042472F /* Project object */;
+}

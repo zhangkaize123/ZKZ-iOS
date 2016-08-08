@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppDelegate">
+            <connections>
+                <outlet property="tab" destination="04y-5J-Rzf" id="cBY-NS-YrX"/>
+                <outlet property="window" destination="ZKS-8G-oVj" id="Zj2-ia-Ljj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <window contentMode="scaleToFill" resizesToFullScreen="NO" id="ZKS-8G-oVj">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="374" y="326"/>
+        </window>
+        <tabBarController id="04y-5J-Rzf">
+            <nil key="simulatedBottomBarMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" id="hQo-iE-qWg">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <viewController title="one" id="ip3-K4-beh" customClass="OneViewController">
+                    <tabBarItem key="tabBarItem" title="One" image="1.png" id="rG9-ZB-IJl"/>
+                </viewController>
+                <viewController title="two" id="la6-rY-aad" customClass="TwoViewController">
+                    <tabBarItem key="tabBarItem" title="Two" image="2.png" id="WOI-aw-tmF"/>
+                </viewController>
+                <viewController title="three" id="Ctw-7K-KAL" customClass="ThreeViewController">
+                    <tabBarItem key="tabBarItem" title="three" image="3.png" id="K4w-77-yGe"/>
+                </viewController>
+                <viewController title="four" id="vcM-n5-Atl" customClass="FourViewController">
+                    <tabBarItem key="tabBarItem" title="Four" image="4.png" id="jnC-6O-Uv1"/>
+                </viewController>
+                <viewController title="five" id="pAA-Ci-0rE" customClass="FiveViewController">
+                    <tabBarItem key="tabBarItem" title="Five" image="5.png" id="BF3-2x-5AQ"/>
+                </viewController>
+            </viewControllers>
+            <point key="canvasLocation" x="339" y="-309"/>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="1.png" width="30" height="30"/>
+        <image name="2.png" width="30" height="30"/>
+        <image name="3.png" width="30" height="30"/>
+        <image name="4.png" width="30" height="30"/>
+        <image name="5.png" width="30" height="30"/>
+    </resources>
+</document>
